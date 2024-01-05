@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>WEATHER APP</h1>
+        <div>
+            <input type="text" name="" id="input" placeholder="Enter city name">
+            <button id="search" onclick="searchByCity()">Search</button></input>
+        </div>
+    </div>
+    <main>
+        <div class="weather">
+            <h2 id="city">Delhi,IN</h2>
+            <div class="temp-box">
+                <img src="weathericon.png" alt="" id="img">
+                <p id="temperature">26 °C</p>
+                <p id="humidity">10%</p>3
+                <p id="wind">2.0km/h</p>
+            </div>
+            <span id="clouds">Broken Clouds</span>
+        </div>
+    </main>
+    <div class="forecstD">
+        <p class="cast-header"> Next 4 days forecast</p>
+        <div class="weekF">
+            <div class="dayF">
+                <p class="date">Mar 13 2023</p>
+                <p class="temp">25 °C</p>
+                <p class="humidity">10%</p>
+                <p class="wind">2.5km/h</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+            <div class="dayF">
+                <p class="date">Mar 14 2023</p>
+                <p class="temp">25 °C</p>
+                <p class="humidity">10%</p>
+                <p class="wind">2.5km/h</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+            <div class="dayF">
+                <p class="date">Mar 15 2023</p>
+                <p class="temp">25 °C</p>
+                <p class="humidity">10%</p>
+                <p class="wind">2.5km/h</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+            <div class="dayF">
+                <p class="date">Mar 16 2023</p>
+                <p class="temp">25 °C</p>
+                <p class="humidity">10%</p>
+                <p class="wind">2.5km/h</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
